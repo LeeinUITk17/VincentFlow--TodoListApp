@@ -1,22 +1,22 @@
-const VideoSide =()=>{
+const VideoSide = () => {
     return (
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="ratio ratio-16x9">
-                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+        <div className="modal fade" id="videoModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog">
+                <div className="modal-content rounded-0">
+                    <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div className="modal-body">
+                        <div className="ratio ratio-16x9">
+                            <iframe className="embed-responsive-item" src="" id="video" allowFullScreen allowScriptAccess="always"
     allow="autoplay" title="Youtube Video Content"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    )
+    );
 }
 
 export default VideoSide;
